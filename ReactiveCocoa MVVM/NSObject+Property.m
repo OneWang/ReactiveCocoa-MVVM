@@ -10,10 +10,8 @@
 
 @implementation NSObject (Property)
 
-+ (void)createPropertyCodeWithDict:(NSDictionary *)dict
-{
++ (void)createPropertyCodeWithDict:(NSDictionary *)dict{
     NSMutableString *mutableStr = [NSMutableString string];
-    
     //遍历字典
     [dict enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull propertyName, id  _Nonnull value, BOOL * _Nonnull stop) {
         NSString *code;

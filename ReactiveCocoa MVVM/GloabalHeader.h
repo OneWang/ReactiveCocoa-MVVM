@@ -9,7 +9,7 @@
 #ifndef GloabalHeader_h
 #define GloabalHeader_h
 
-#import "ReactiveCocoa.h"
+#import "ReactiveObjC.h"
 
 #import "MBProgressHUD+XMG.h"
 
