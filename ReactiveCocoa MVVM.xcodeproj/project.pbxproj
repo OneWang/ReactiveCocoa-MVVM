@@ -150,14 +150,7 @@
 				0A6EC48B1D5356E3001332CE /* NSObject+Property.h */,
 				0A6EC48C1D5356E3001332CE /* NSObject+Property.m */,
 				0A6EC47C1D534236001332CE /* MBProgressHUD */,
-				0AE94F891D521936008432C5 /* AppDelegate.h */,
-				0AE94F8A1D521936008432C5 /* AppDelegate.m */,
-				0AE94F8C1D521936008432C5 /* ViewController.h */,
-				0AE94F8D1D521936008432C5 /* ViewController.m */,
-				0AE94F8F1D521936008432C5 /* Main.storyboard */,
-				0AE94F921D521936008432C5 /* Assets.xcassets */,
-				0AE94F941D521936008432C5 /* LaunchScreen.storyboard */,
-				0AE94F971D521936008432C5 /* Info.plist */,
+				AAB8E58C213E186000F44DCD /* Config */,
 				0AE94F861D521936008432C5 /* Supporting Files */,
 				0A54F5851D5337DA00083A4E /* GloabalHeader.h */,
 				0A6EC4851D534431001332CE /* LoginViewModel.h */,
@@ -200,6 +193,21 @@
 				FC7E5766ABEE94B575D2D454 /* Pods_ReactiveCocoa_MVVM.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAB8E58C213E186000F44DCD /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				0AE94F891D521936008432C5 /* AppDelegate.h */,
+				0AE94F8A1D521936008432C5 /* AppDelegate.m */,
+				0AE94F8C1D521936008432C5 /* ViewController.h */,
+				0AE94F8D1D521936008432C5 /* ViewController.m */,
+				0AE94F8F1D521936008432C5 /* Main.storyboard */,
+				0AE94F921D521936008432C5 /* Assets.xcassets */,
+				0AE94F941D521936008432C5 /* LaunchScreen.storyboard */,
+				0AE94F971D521936008432C5 /* Info.plist */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -548,7 +556,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "ReactiveCocoa MVVM/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ReactiveCocoa MVVM/Config/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "li.ReactiveCocoa-MVVM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -561,7 +569,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "ReactiveCocoa MVVM/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ReactiveCocoa MVVM/Config/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "li.ReactiveCocoa-MVVM";
 				PRODUCT_NAME = "$(TARGET_NAME)";

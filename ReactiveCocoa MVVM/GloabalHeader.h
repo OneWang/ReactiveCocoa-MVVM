@@ -10,11 +10,7 @@
 #define GloabalHeader_h
 
 #import "ReactiveObjC.h"
-
 #import "MBProgressHUD+XMG.h"
-
-
 #import "AFNetworking.h"
-
 
 #endif /* GloabalHeader_h */
